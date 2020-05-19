@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap 4</title>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="min-vh-100 vh-100">
+
+<div class="container h-50" style="background-color: antiquewhite">
+    <h3 class="pb-5">container - grid system example - responsive</h3>
+
+    <div class="row pb-5 text-center">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            this colum is :
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            this colum is :
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            this colum is :
+        </div>
+    </div>
+
+    <div class="row pb-5 text-center">
+        <div class="col-12 d-xl-none">
+            no display on : Extra large ≥ 1200px
+        </div>
+        <div class="col-12 d-lg-none">
+            this colum is : Large ≥ 992px
+        </div>
+        <div class="col-12 d-md-none">
+            this colum is : Medium ≥ 768px
+        </div>
+        <div class="col-12 d-sm-none">
+            this colum is : SMall ≥ 576px
+        </div>
+        <div class="col-12 d-none">
+            this colum is : NEVERE DISPLAYED
+        </div>
+    </div>
+
+</div>
+
+<div class="container-fluid h-50" style="background-color: lightslategray">
+    <h3>container-fluid</h3>
+</div>
+
+</body>
+</html>
